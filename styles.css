@@ -5,7 +5,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background-color: #f9f9f9;
+  background-color: #F9F9F9;
 }
 
 .container {
@@ -14,15 +14,15 @@ body {
 }
 
 .bg-blue {
-  background-color: #34547a;
+  background-color: #34547A;
 }
 
 .bg-light-gray {
-  background-color: #eeeff1;
+  background-color: #EEEFF1;
 }
 
 .header {
-  background-color: #eeeff1;
+  background-color: #EEEFF1;
   padding-block: 79px 141px;
 }
 
@@ -37,7 +37,7 @@ body {
   font-weight: 400;
 }
 .header li:first-child {
-  color: #34547a;
+  color: #34547A;
 }
 
 header h1 {
@@ -47,13 +47,15 @@ header h1 {
   font-weight: 500;
   line-height: 79px;
 }
-header p {
+header .header__description, header .about-me__description {
   color: #727272;
   font-weight: 400;
   line-height: 26.25px;
   max-width: 540px;
-  margin-top: 60px;
+  height: 67px;
+  text-align: center;
   letter-spacing: 0.3px;
+  margin-top: 60px;
 }
 
 .button {
@@ -73,24 +75,14 @@ header p {
   color: #f9f9f9;
 }
 
-section {
-  margin-top: 112px;
-  margin-bottom: 100px;
-}
 section h2 {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
   line-height: 37.5px;
 }
-section p {
-  color: #727272;
-  font-weight: 400;
-  line-height: 26.25px;
-  max-width: 540px;
-  height: 67px;
-  text-align: center;
-  letter-spacing: 0.3px;
+
+.about-me__description {
   margin: 50px auto;
 }
 
@@ -196,7 +188,7 @@ section .video iframe {
     margin-top: 20px;
     font-size: 18px;
   }
-  .header__description {
+  .header__description, .about-me__description {
     margin-top: 30px;
   }
   .button {
@@ -288,4 +280,4 @@ section .video iframe {
     font-size: 8px;
     padding-top: 10px;
   }
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
